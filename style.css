@@ -1,0 +1,33 @@
+.banner_bg{
+    background: url("./img/bg-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner_bg_2{
+    background: url("./img/bg-2.jpg") no-repeat center;
+    background-size: cover;
+}
+.product_quality_list .product_quality_img::before{
+    content: "";
+    border: 1px dashed rgb(0, 0, 0);
+    padding: 1rem; 
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    position: absolute; 
+    border-radius: 50%;
+}
+@keyframes nasa-spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+
+    }
+    
+}
+.product_quality_list:hover .product_quality_img::before{
+    animation:nasa-spin 8s linear infinite;
+        border: 1px dashed rgb(4, 143, 23);
+}
