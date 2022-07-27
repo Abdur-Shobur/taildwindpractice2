@@ -202,7 +202,7 @@
     <!-- prduct quality  -->
     <section>
         <div class="container mx-auto">
-            <div class="grid gap-4 p-4 md:grid-cols-2 2xl:grid-cols-4">
+            <div class="grid gap-4 p-4 md:grid-cols-2 2xl:grid-cols-4 my-8">
                 <div class="product_quality_list flex items-center gap-6">
                     <div class="product_quality_img relative rounded-full p-4 shadow-2xl">
                         <img src="./img/or_icon_1.png" class="w-24 rounded-full p-2" alt="">
@@ -244,20 +244,374 @@
     </section>
     <!-- product quality end  -->
     <!-- all products  -->
-    <section>
+    <section >
         <div class="container mx-auto">
             <!-- product category  -->
-            <div class="flex justify-between items-center">
-                <h1>Best Selling</h1>
-                <ul class="flex overflow-x-scroll text-xl justify-end gap-4 xl:gap-6 font-semibold">
-                    <li><button>Featured</button></li> 
-                    <li><button>Popular</button></li> 
-                    <li><button>Best Selling</button></li> 
-                    <li><button>Top Rate</button></li> 
-                    <li><button>On Sale</button></li> 
-                    <li><button>New Added</button></li> 
-                </ul>
+            <div class="flex gap-4 my-8">
+                <!-- recommended product  -->
+                <div class="hidden xl:block">
+                    <h1 class="font-semibold text-2xl">Recommendations</h1>
+                    <div class="recomend_banner h-full">
+                        <h1>Organic Vegetables Everyday </h1>
+                        <button class="px-3 py-2 bg-green-600 rounded-md text-white font-semibold">Shop Now</button>
+                    </div>
+                </div>
+                <!-- all product wrap -->
+                <div class="">
+                    
+                    <div class="">
+                        <!-- categoryes  -->
+                       <div class="flex justify-end">
+
+                           <div class="text-xl w-[300px] overflow-x-auto flex justify-start gap-4 xl:gap-6 font-semibold my-8 my_liss text-stone-700 ">
+                               <div class=" w-60 inline-block mx-4">Featured</div>
+                               <div class=" w-60 inline-block mx-4">Popular</div>
+                               <div class=" w-60 inline-block mx-4">Best Selling</div>
+                               <div class=" w-60 inline-block mx-4">Top Rate</div>
+                               <div class=" w-60 inline-block mx-4">On Sale</div>
+                            </div>
+                            </div>
+                             
+                       
+                        <!-- .all-products -->
+                        <div class="all-products grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5   gap-4">
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                            <div class="itm-1 p-4 shadow-lg relative">
+                                <div class="product_img relative">
+                                    <img src="./img/itm-1.jpg" alt="">
+                                    <div class="add_wish absolute top-2 right-2">
+                                        <span class="h-8 shadow-xl w-8 flex justify-center items-center rounded-sm bg-slate-300 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product_details my-2">
+                                    <h6 class="text-xl text-stone-900 font-semibold">Cherry Tomatoes</h6>
+                                    <div class=" ">
+                                        <p class="my-2 text-lg text-slate-800 font-semibold">$12.00</p>
+                                        <div class=" flex gap-3">
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>1</span>
+                                                <span>Kg</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>500</span>
+                                                <span>G</span>
+                                            </div>
+                                            <div class="flex justify-center items-center flex-col gap-0 bg-slate-300 w-8 h-8 rounded-full  leading-3 text-xs">
+                                                <span>250</span>
+                                                <span>G</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add-to-card"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+            
         </div>
     </section>
 </body>

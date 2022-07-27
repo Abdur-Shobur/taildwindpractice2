@@ -31,3 +31,12 @@
     animation:nasa-spin 8s linear infinite;
         border: 1px dashed rgb(4, 143, 23);
 }
+
+/* recomend_banner */
+.recomend_banner{
+    background: url("./img/bg_recomended.jpg") center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+ 
